@@ -56,12 +56,12 @@ body {
 .star_reviews {
   margin-top: 0;
   padding-top: 0;
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 .second_card {
   background-color: #fdfdfd;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 140%;
   font-weight: 300;
 }
@@ -71,7 +71,7 @@ body {
 }
 .third_card {
   background-color: #ffca67;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 140%;
   font-weight: 300;
   text-wrap: balance;
@@ -84,7 +84,7 @@ body {
 }
 .fourth_card {
   background-color: #dcd1fc;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 140%;
   font-weight: 300;
   text-align: center;
@@ -97,7 +97,7 @@ body {
 
 .fifth_card {
   background-color: #7450d6;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
   text-align: center;
@@ -112,7 +112,7 @@ body {
 
 .sixth_card {
   background-color: #ffffff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 140%;
   font-weight: 300;
   text-align: left;
@@ -123,7 +123,7 @@ body {
 }
 .seventh_card {
   background-color: #faeee2;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 140%;
   font-weight: 300;
   text-align: left;
@@ -136,7 +136,7 @@ body {
 
 .eight_card {
   background-color: #ffca67;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
   text-align: left;
