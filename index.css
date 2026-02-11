@@ -13,11 +13,17 @@ p {
 
 html {
   font-size: 62.5%;
+  
+}
+img {
+  width: 100%;
 }
 
 body {
   font-size: 1.6rem;
   line-height: 1.6;
+  max-width: 100%;
+  overflow-x: hidden;
   /* font-family:; */
 }
 .sub-container {
