@@ -61,35 +61,36 @@ body {
 .second_card {
   background-color: #fdfdfd;
   text-align: left;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
 }
 .second_card_image {
-  max-width: 10rem;
+  max-width: 80%;
   margin-top: 1rem;
 }
 .third_card {
   background-color: #ffca67;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
+  text-wrap: balance;
 }
 .third_card_img {
-  height: 25rem;
-  /* max-width: 60%; */
+  max-width: 80%;
   margin-top: 1rem;
-  margin-bottom: -1.6rem;
+  margin-bottom: -2.6rem;
+  overflow: clip;
 }
 .fourth_card {
   background-color: #dcd1fc;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
   text-align: center;
 }
 .fourth_card_img {
-  height: 30rem;
+  max-width: 80%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -104,9 +105,9 @@ body {
 }
 
 .fifth_card_img {
-  height: 30rem;
+  max-width: 70%;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .sixth_card {
@@ -117,33 +118,33 @@ body {
   text-align: left;
 }
 .sixth_card_img {
-  height: 8rem;
+  max-width: 60%;
   margin: 2rem 0;
 }
 .seventh_card {
   background-color: #faeee2;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 140%;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 
 .seventh_card_img {
-  height: 12rem;
+  max-width: 80%;
   margin: 2rem 0;
 }
 
 .eight_card {
   background-color: #ffca67;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 140%;
   font-weight: 300;
   text-align: left;
 }
 
 .eight_card_img {
-  height: 30rem;
-  margin: 1rem 0;
+  max-width: 80%;
+  margin: 2rem 0;
 }
 
 @media (min-width: 720px) {
@@ -184,34 +185,44 @@ body {
     grid-area: c8;
   }
   .star-img {
-    height: 2.3rem;
+    max-width: 50%;
   }
   .second_card_image {
-    height: 4.1rem;
+    max-width: 100%;
   }
   .third_card_img {
-    height: 13rem;
+    max-width: 100%;
   }
   .fourth_card_img {
-    height: 20rem;
+    max-width: 100%;
+  }
+  .fourth_h2 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .fourth_card_p {
+    font-size: 2.3rem;
   }
   .fifth_card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1.75fr 3fr;
+    place-items: center;
+    text-align: left;
+    gap: 1rem;
   }
   .fifth_card_img {
-    height: 20rem;
+    max-width: 100%;
   }
   .sixth_card_img {
     height: 5rem;
   }
   .seventh_card_img {
-    margin-top: 5rem;
-    height: 9rem;
+    max-width: 100%;
   }
   .eight_card_img {
-    height: 15rem;
+    max-width: 100%;
   }
   .card {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
